@@ -38,6 +38,14 @@
     }
   }
 }
+// [mobile]: invert color of logo
+@media (max-width: 992px) {
+  #mainNav {
+    .navbar-brand {
+      filter: invert(100%);
+    }
+  }
+}
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
