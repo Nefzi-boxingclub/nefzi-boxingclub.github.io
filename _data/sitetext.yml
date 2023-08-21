@@ -9,7 +9,7 @@
 
 # English (default)
 # -----------------
-en: &DEFAULT_EN
+en-US:
   header:
     title: Welcome to our Studio!
     text: It's Nice To Meet You
@@ -151,18 +151,138 @@ en: &DEFAULT_EN
         icon: "fab fa-facebook-f"
       - url: https://www.instagram.com/nefzi_boxing_club/
         icon: "fab fa-instagram"
-en-US:
-  <<: *DEFAULT_EN
-en-CA:
-  <<: *DEFAULT_EN
-en-GB:
-  <<: *DEFAULT_EN
-en-AU:
-  <<: *DEFAULT_EN
+
 
 # Dutch
 # -------
-es: &DEFAULT_NL
+nl-BE:
+  header:
+    title: Welkom bij Nefzi Boxingclub!
+    text: " "
+    button: Lees meer
+    buttonlink: "#services"
+
+  services:
+    title: "Services"
+    text: "Lorem ipsum"
+    section: services
+    list:
+      - title: "E-Commerce"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Responsive Design"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-laptop
+      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+        desc: "Your description here, full **Markdown** support"
+        icon: fab fa-markdown
+
+  portfolio:
+    title: "Portfolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portfolio
+    closebutton: "Close Project"
+
+  schedule:
+    title: "Uurrooster"
+    section: schedule
+
+    days:
+      - monday:
+        name: "Maandag"
+        events:
+      - tuesday:
+        name: "Dinsdag"
+        events:
+          - type: "boxing-adult"
+            start: "17:00"
+            end: "18:30"
+            description: "Volwassenen"
+      - wednesday:
+        name: "Woensdag"
+        events:
+          - type: "boxing-teen"
+            start: "16:00"
+            end: "17:30"
+            description: "Jeugd"
+      - thursday:
+        name: "Donderdag"
+        events:
+          - type: "boxing-adult"
+            start: "17:00"
+            end: "18:30"
+            description: "Volwassenen"
+      - friday:
+        name: "Vrijdag"
+        events:
+          - type: "boxing-teen"
+            start: "17:00"
+            end: "18:30"
+            description: "Jeugd"
+      - saturday:
+        name: "Zaterdag"
+        events:
+          - type: "boxing-adult"
+            start: "17:00"
+            end: "18:30"
+            description: "Volwassenen"
+      - sunday:
+        name: "Zondag"
+        events:
+
+  prices:
+    title: "tarieven"
+    text: "Hieronder de tarieven van de club.<br>Momenteel worden er alleen maandelijkse abonnementen voorzien. <br> Bij inschrijving wordt éénmalig 15 euro extra aangerekend voor de sportverzekering die 1 jaar geldig is."
+    section: prices
+
+    # left is the default
+    #start_align: "left"
+    adults:
+      title: "Volwassenen"
+      price: "50"
+
+    teens:
+      title: "Jeugd (<18 jaar)"
+      price: "40"
+
+
+  trainer:
+    title: "De trainer"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: trainer
+    
+    name: "Ayoub Nefzi"
+    role: ""
+    image: assets/img/team/500x500.jpg
+    image-alt: "Ayoub Nefzi - Trainer Nefzi Boxingclub Geraardsbergen"
+
+
+  contact:
+    title: "Contacteer ons"
+    text: ""
+    section: contact
+    name: "Naam*"
+    name-validation: "Gelieve je naam in te vullen!"
+    email: "Email*"
+    email-validation: "Gelieve je emailadres in te vullen!"
+    phone: "Telefoonnummer"
+    phone-validation: "Gelieve je telefoonnummer in te vullen!"
+    message: "Bericht*"
+    message-validation: "Gelieve het bericht in te vullen!"
+    subject: "Contact Form Submission"
+    submit: "Verzend Bericht"
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://www.facebook.com/NefziBoxingclub/
+        icon: "fab fa-facebook-f"
+      - url: https://www.instagram.com/nefzi_boxing_club/
+        icon: "fab fa-instagram"
+
+
+fr-BE:
   header:
     title: todo
     text: todo
@@ -284,5 +404,3 @@ es: &DEFAULT_NL
         icon: "fab fa-facebook-f"
       - url: https://www.instagram.com/nefzi_boxing_club/
         icon: "fab fa-instagram"
-nl-BE:
-  <<: *DEFAULT_NL
