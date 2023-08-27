@@ -40,8 +40,10 @@ nl-BE:
       section: trainer
     - title: "Contact"
       section: contact
+    - title: "Locatie"
+      section: location
     - title: "Foto's"
-      section: contact
+      section: 
 
 
 fr-BE:

@@ -266,6 +266,11 @@ nl-BE:
     message-validation: "Gelieve het bericht in te vullen!"
     subject: "Contact Form Submission"
     submit: "Verzend Bericht"
+  
+  location:
+    title: "Locatie"
+    text: "Sporthal de Veldmuis<br>Felicien Cauwelstraat 39, 9500 Geraardsbergen"
+    section: location
 
   footer:
     legal: "Privacy Policy"
