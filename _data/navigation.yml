@@ -9,7 +9,7 @@
 
 # English (default)
 # -----------------
-en: &DEFAULT_EN
+en-US:
   nav:
     - title: "Services"
       section: services
@@ -25,55 +25,38 @@ en: &DEFAULT_EN
       section: contact
     - title: "Theme Source"
       url: https://github.com/raviriley/agency-jekyll-theme/
-en-US:
-  <<: *DEFAULT_EN
-en-CA:
-  <<: *DEFAULT_EN
-en-GB:
-  <<: *DEFAULT_EN
-en-AU:
-  <<: *DEFAULT_EN
 
-# Spanish
-# -------
-es: &DEFAULT_ES
+nl-BE:
   nav:
-    - title: "Servicios"
-      section: servicios
-    - title: "Portafolio"
-      section: portafolio
-    - title: "Sobre Nosotros"
-      section: nosotros
-    - title: "Cronología"
-      section: cronologia
-    - title: "Equipo"
-      section: equipo
-    - title: "Contáctenos"
-      section: contacto
-    - title: "Fuente de la plantilla"
-      url: https://github.com/raviriley/agency-jekyll-theme/
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
+    - title: "Missie"
+      section: services
+    - title: "Informatie"
+      section: portfolio
+    - title: "Uurrooster"
+      section: schedule
+    - title: "Tarieven"
+      section: prices
+    - title: "Trainer"
+      section: trainer
+    - title: "Contact"
+      section: contact
+    - title: "Foto's"
+      section: contact
 
-# Deutsch
-# -----------------
-de: &DEFAULT_DE
+
+fr-BE:
   nav:
-    - title: "Leistungen"
-      section: Leistungen
-    - title: "Portfolio"
-      section: Portfolio
-    - title: "Über uns"
-      section: Ueber
-    - title: "Geschichte"
-      section: Geschichte
-    - title: "Team"
-      section: Team
-    - title: "Kontakt"
-      section: Kontakt
-    - title: "Quellcode des Themas"
-      url: https://github.com/raviriley/agency-jekyll-theme/
-de-DE:
-  <<: *DEFAULT_DE
+    - title: "*todo*"
+      section: "*todo*"
+    - title: "*todo*"
+      section: "*todo*"
+    - title: "*todo*"
+      section: "*todo*"
+    - title: "*todo*"
+      section: "*todo*"
+    - title: "*todo*"
+      section: "*todo*"
+    - title: "*todo*"
+      section: "*todo*"
+    - title: "*todo*"
+      url: "*todo*"
