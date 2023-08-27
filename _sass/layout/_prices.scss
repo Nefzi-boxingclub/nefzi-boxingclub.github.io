@@ -1,0 +1,30 @@
+.card-header { 
+    padding-top: 0px;
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.card-pricing .list-unstyled li {
+    padding: .5rem 0;
+    color: #6c757d;
+}
+
+.card-pricing {
+    z-index: 1;
+    border: 2px solid $gray-700;
+}
+
+.card-pricing.popular {
+    z-index: 1;
+    border: 3px solid $gray-700;
+}
+
+.card-color {
+    background-color: $gray-700;
+}
+
+.card-body {
+    padding-bottom: 0px;
+}

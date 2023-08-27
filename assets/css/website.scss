@@ -24,10 +24,9 @@ $contact-image: "{{ site.data.style.contact-image }}";
 
 // Layout
 @import "layout/masthead.scss";
-@import "layout/services.scss";
-@import "layout/portfolio.scss";
-@import "layout/timeline.scss";
+@import "layout/mission.scss";
 @import "layout/schedule.scss";
+@import "layout/prices.scss";
 @import "layout/trainer.scss";
 @import "layout/contact.scss";
 @import "layout/location.scss";
