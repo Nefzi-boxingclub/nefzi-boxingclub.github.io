@@ -30,18 +30,18 @@ nl-BE:
   nav:
     - title: "Missie"
       section: services
-    - title: "Informatie"
-      section: portfolio
+    - title: "Trainer"
+      section: trainer
     - title: "Uurrooster"
       section: schedule
     - title: "Tarieven"
       section: prices
-    - title: "Trainer"
-      section: trainer
     - title: "Contact"
       section: contact
+    - title: "Locatie"
+      section: location
     - title: "Foto's"
-      section: contact
+      section: 
 
 
 fr-BE:

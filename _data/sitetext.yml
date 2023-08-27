@@ -241,15 +241,27 @@ nl-BE:
 
 
   trainer:
-    title: "De trainer"
+    title: "Trainer"
     text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: trainer
     
     name: "Ayoub Nefzi"
-    role: ""
-    image: assets/img/team/500x500.jpg
+    description: "Ayoub Nefzi is de oprichter van Nefzi Boxingclub en een echte boksliefhebber. Hij is een voormalig professional die jarenlang heeft gebokst op topniveau. De laatste jaren richt hij zich vooral op het trainen van anderen, inclusief beginners en meer ervaren boksers."
+    image: assets/img/trainer/ayoub-nefzi.jpg
     image-alt: "Ayoub Nefzi - Trainer Nefzi Boxingclub Geraardsbergen"
+    palmares:
+      record: "26 won - 12 lost - 2 draw"
+      titles:
+        - title:
+          name: "Belgium Super Welterweight Title"
+        - title:
+          name: "BeNeLux Super Welterweight Title"
+        - title:
+          name: "IBF International Super Welterweight Title"
+        - title:
+          name: "IBF Continental Africa Super Welterweight Title"
+        - title:
+          name: "Fight Of The Year - 2012"
 
 
   contact:
@@ -266,6 +278,11 @@ nl-BE:
     message-validation: "Gelieve het bericht in te vullen!"
     subject: "Contact Form Submission"
     submit: "Verzend Bericht"
+  
+  location:
+    title: "Locatie"
+    text: "Sporthal de Veldmuis<br>Felicien Cauwelstraat 39, 9500 Geraardsbergen"
+    section: location
 
   footer:
     legal: "Privacy Policy"
