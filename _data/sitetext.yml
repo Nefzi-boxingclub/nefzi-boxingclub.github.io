@@ -216,19 +216,53 @@ nl-BE:
         events:
 
   prices:
-    title: "tarieven"
+    title: "Tarieven"
     text: "Hieronder de tarieven van de club.<br>Momenteel worden er alleen maandelijkse abonnementen voorzien. <br> Bij inschrijving wordt éénmalig 15 euro extra aangerekend voor de sportverzekering die 1 jaar geldig is."
     section: prices
 
-    # left is the default
-    #start_align: "left"
-    adults:
-      title: "Volwassenen"
-      price: "50"
+    categories:
+      - teens:
+        title: "Jeugd"
+        description: "Jeugd onder 18 jaar"
+        price: "40"
+        frequency: "/ maand"
+        info:
+          - point:
+            description: "Voor minderjarigen"
+          - point:
+            description: "2 groepstrainingen / week"
+          - point:
+            description: "Gericht op techniek en cardio"
+    
+      - adults:
+        title: "Volwassenen"
+        description: ""
+        price: "50"
+        frequency: "/ maand"
+        info:
+          - point:
+            description: "Voor 18+ (of jonger bij toelating)"
+          - point:
+            description: "3 groepstrainingen / week"
+          - point:
+            description: "Gericht op techniek en cardio"
+          - point:
+            description: "Lichte sparring (niet verplicht)"
 
-    teens:
-      title: "Jeugd (<18 jaar)"
-      price: "40"
+      - private:
+        title: "Privé training"
+        description: ""
+        price: "90"
+        frequency: "voor 4 beurten"
+        info:
+          - point:
+            description: "Eén-op-één training met Ayoub"
+          - point:
+            description: "Mogelijk op afspraak"
+          - point:
+            description: "Gericht op techniek"
+          - point:
+            description: "Gericht op het competitieve"
 
 
   trainer:
