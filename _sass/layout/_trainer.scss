@@ -1,9 +1,5 @@
-.page-section-no-bottom-padding {
-  padding-bottom: 0%;
-}
-
-.section-heading-bottom-padding {
-  padding-bottom: 60px;
+.page-section-no-padding {
+  padding: 0%;
 }
 
 .container-no-margin {
@@ -60,6 +56,9 @@
   .image-container,
   .info-container {
     flex: auto; /* Elements take full width on smaller screens */
+  }
+  .section-heading-bottom-padding {
+    padding-bottom: 10px;
   }
   .trainer-description {
     font-size: 18px;
