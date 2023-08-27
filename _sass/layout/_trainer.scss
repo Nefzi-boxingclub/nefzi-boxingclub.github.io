@@ -1,18 +1,70 @@
-// Styling for the team section
-.team-member {
-  margin-bottom: 50px;
-  text-align: center;
-  img {
-    width: 225px;
-    height: 225px;
-    border: 7px solid fade-out($black, 0.9);
+.page-section-no-bottom-padding {
+  padding-bottom: 0%;
+}
+
+.section-heading-bottom-padding {
+  padding-bottom: 60px;
+}
+
+.container-no-margin {
+  margin: 0%;
+  max-width: 100%;
+}
+.col-no-padding {
+  padding: 0%;
+}
+
+.trainer-section {
+  display: flex;
+  flex-direction: row; /* Default layout for larger screens */
+}
+
+.image-container {
+  flex: 1; /* Image takes 1/2 of the width on larger screens */
+}
+
+.info-container {
+  flex: 1; /* Info takes 1/2 of the width on larger screens */
+  padding: 10%;
+}
+
+.img-trainer {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.trainer-description {
+  font-size: 22px;
+}
+
+.trainer-palmares {
+  font-size: 28px;
+  padding: 50px 20px 20px 20px;
+}
+
+.trainer-palmares-item {
+  font-size: 18px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+/* Media Query for Mobile Screens */
+@media (max-width: 767px) {
+  .trainer-section {
+    flex-direction: column; /* Stacking elements for smaller screens */
   }
-  h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none;
+  
+  .image-container,
+  .info-container {
+    flex: auto; /* Elements take full width on smaller screens */
   }
-  p {
-    margin-top: 0;
+  .trainer-description {
+    font-size: 18px;
+  }
+  .trainer-palmares-item {
+    font-size: 16px;
   }
 }
