@@ -36,12 +36,12 @@ nl-BE:
       section: schedule
     - title: "Tarieven"
       section: prices
-    - title: "Contact"
-      section: contact
     - title: "Locatie"
       section: location
-    - title: "Foto's"
-      section: 
+    - title: "Contact"
+      section: contact
+    #- title: "Foto's"
+    #  section: 
 
 
 fr-BE:
