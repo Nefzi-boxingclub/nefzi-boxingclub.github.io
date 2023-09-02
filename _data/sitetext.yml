@@ -160,7 +160,7 @@ nl-BE:
     title: Welkom bij Nefzi Boxingclub!
     text: " "
     button: Lees meer
-    buttonlink: "#missie"
+    buttonlink: "#mission"
 
   mission:
     title: "Missie"

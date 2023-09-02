@@ -15,7 +15,6 @@
     color: $primary;
     @include script-font;
     &.active,
-    &:active,
     &:focus,
     &:hover {
       color: darken($primary, 10%);
