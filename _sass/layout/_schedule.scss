@@ -357,6 +357,10 @@ Main Components
     max-width: 100%;
     overflow: hidden;
   }
+  .single-event:hover {
+    z-index: 999999 !important;
+    transform: scale(1.06, 1.06);
+  }
 }
 
 .cd-schedule .event-date {
@@ -370,20 +374,31 @@ Main Components
 .cd-schedule .single-event[data-event="boxing-teen"],
 .cd-schedule [data-event="boxing-teen"] .header-bg {
   /* this is used to set a background color for the event and the modal window */
-  background: #577F92;
+  background: #e72222e0; // #577F92;
 }
 
 .cd-schedule .single-event[data-event="boxing-teen"]:hover {
-  background: #618da1;
+  background: #e72222; // #618da1;
 }
 
 .cd-schedule .single-event[data-event="boxing-adult"],
 .cd-schedule [data-event="boxing-adult"] .header-bg {
-  background: #443453;
+  background: $gray-800;// #443453;
 }
 
 .cd-schedule .single-event[data-event="boxing-adult"]:hover {
-  background: #513e63;
+  background: $gray-900;// #513e63;
 }
 
 
+
+@media (min-width: 800px) {
+  .container {
+      max-width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1200px;
+  }
+}
