@@ -55,9 +55,6 @@
 	  {%- if site.data.sitetext[page.locale].header.text -%}
         <div class="intro-heading text-uppercase">{{ site.data.sitetext[page.locale].header.text | markdownify }}</div>
 	  {%- endif -%}
-	  {%- if site.data.sitetext[page.locale].header.button -%}
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[page.locale].header.buttonlink }}">{{ site.data.sitetext[page.locale].header.button }}</a>
-	  {%- endif -%}
       </div>
     </div>
   </header>
