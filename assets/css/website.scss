@@ -13,7 +13,7 @@ $black: {{ site.data.style.black | default: "#000" }} !default;
 // Custom Images
 $header-image: "{{ site.data.style.header-image }}";
 $contact-image: "{{ site.data.style.contact-image }}";
-
+$prices-image: "{{ site.data.style.prices-image }}";
 // Global CSS
 @import "base/page.scss";
 

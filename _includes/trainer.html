@@ -14,17 +14,17 @@
 						site.data.sitetext[page.locale].trainer.title }}</h2>
 
 					<h2 class="text-bold trainer-palmares">{{ site.data.sitetext[page.locale].trainer.name }}</h2>
-					<p class="trainer-description text-muted">{{ site.data.sitetext[page.locale].trainer.description }}
+					<p class="trainer-description">{{ site.data.sitetext[page.locale].trainer.description }}
 					</p>
 
 					<p class="text-bold trainer-palmares">Palmares</p>
 
-					<p class="text-muted trainer-palmares-item">{{
+					<p class="trainer-palmares-item">{{
 						site.data.sitetext[page.locale].trainer.palmares.record }}</p>
 
 					{% for title in site.data.sitetext[page.locale].trainer.palmares.titles %}
 					<p>-</p>
-					<p class="text-muted trainer-palmares-item">{{ title.name }}</p>
+					<p class="trainer-palmares-item">{{ title.name }}</p>
 
 					{% endfor %}
 
