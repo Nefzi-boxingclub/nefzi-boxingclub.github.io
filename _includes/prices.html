@@ -1,11 +1,11 @@
 <!-- About -->
-<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].prices.section | default: " prices" }}">
+<section class="page-section" id="{{ site.data.sitetext[page.locale].prices.section | default: " prices" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">{{ site.data.sitetext[site.locale].prices.title | markdownify |
+        <h2 class="section-heading">{{ site.data.sitetext[page.locale].prices.title | markdownify |
           default: "About" }}</h2>
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].prices.text}}</h3>
+        <h3 class="section-subheading">{{ site.data.sitetext[page.locale].prices.text}}</h3>
       </div>
     </div>
     <div class="row">
@@ -13,13 +13,12 @@
         <!-- https://codes4education.com/responsive-pricing-table-card-design-with-bootstrap/ -->
         <div class="container mb-5 mt-5">
           <div class="pricing card-deck flex-column flex-md-row mb-3">
-
-            {% for category in site.data.sitetext[site.locale].prices.categories %}
-            <div class="card card-pricing popular shadow text-center px-3 mb-4">
+            {% for category in site.data.sitetext[page.locale].prices.categories %}
+            <div class="card card-pricing text-center px-2 mb-4">
               <span class="h6 w-60 mx-auto px-5 py-2 rounded-bottom card-color text-white shadow-sm card-title">{{
                 category.title }}</span>
               <div class="bg-transparent card-header pt-0 border-1">
-                <h1 class="h1 font-weight-normal text-primary text-center mb-0"><span class="h6 text-muted ml-2">€{{
+                <h1 class="h1 font-weight-normal text-primary text-center mb-0"><span class="h6">€{{
                     category.price }} {{
                     category.frequency }}</span></h1>
               </div>

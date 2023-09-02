@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer class="footer" id="footer" style="background-color: white">
   <div class="container">
-    {% if site.locale and site.locale != "" and site.locale != nil %}
+    {% if page.locale and page.locale != "" and page.locale != nil %}
     <div class="row align-items-center">
       <div class="col-md-4">
         <span class="copyright"
@@ -11,7 +11,7 @@
       <!-- Social Media -->
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
-          {% for link in site.data.sitetext[site.locale].footer.social %}
+          {% for link in site.data.sitetext[page.locale].footer.social %}
           <li class="list-inline-item">
             {% if link.url %}
             <a href="{{ link.url }}" target="_blank">
@@ -28,7 +28,7 @@
           <li class="list-inline-item">
             <!--
             <a href="legal"
-              >{{ site.data.sitetext[site.locale].footer.legal | default:
+              >{{ site.data.sitetext[page.locale].footer.legal | default:
               "Privacy Policy" }}</a
             >
             -->
