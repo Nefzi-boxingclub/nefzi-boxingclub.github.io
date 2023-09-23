@@ -6,12 +6,17 @@
       </div>
     </div>
     <div class="row">
-      <br />
       <!-- credits to: https://codyhouse.co/gem/schedule-template/-->
       <div class="col-lg-12">
         <div class="cd-schedule loading">
           <div class="_timeline">
             <ul>
+              <li><span>11:00</span></li>
+              <li><span>11:30</span></li>
+              <li><span>12:00</span></li>
+              <li><span>12:30</span></li>
+              <li><span>13:00</span></li>
+              <li><span>13:30</span></li>
               <li><span>14:00</span></li>
               <li><span>14:30</span></li>
               <li><span>15:00</span></li>
@@ -27,30 +32,36 @@
           </div> <!-- .timeline -->
 
           <div class="events">
-            <ul class="wrap">
+            <ul class="wrap mobile-wrap-better">
               {% for day in site.data.sitetext[page.locale].schedule.days %}
-                <li class="events-group">
-                  {% if day.events %}
-                    <div class="top-info"><span>{{ day.name }}</span></div>
-                  {% else %}
-                    <div class="top-info mobile-do-not-display"><span>{{ day.name }}</span></div>
-                  {% endif %}
-                  
-                  <ul>
-                    {% for event in day.events %}
-                      <li class="single-event" data-start="{{ event.start }}" data-end="{{ event.end }}" data-content="event-abs-circuit"
-                        data-event="{{ event.type }}">
-                        <a>
-                          <em class="event-name">{{ event.description }}</em>
-                        </a>
-                      </li>
-                    {% endfor %}
-                  </ul>
-                  
-                </li>
-                {% endfor %}
+              <li class="events-group">
+                {% if day.events %}
+                <div class="top-info"><span>{{ day.name }}</span></div>
+                {% else %}
+                <div class="top-info mobile-do-not-display"><span>{{ day.name }}</span></div>
+                {% endif %}
+                <ul>
+                  {% for event in day.events %}
+                  <li class="single-event" data-start="{{ event.start }}" data-end="{{ event.end }}"
+                    data-event="{{ event.type }}">
+                    <a>
+                      <em class="event-name">{{ event.description }}</em>
+                    </a>
+                  </li>
+                  {% endfor %}
+                </ul>
+              </li>
+              {% endfor %}
             </ul>
           </div>
-        </div> 
+        </div>
       </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 ">
+        <h3 class="bottom-section-subheading text-center">{{ site.data.sitetext[page.locale].schedule.bottom-note }}
+          </h2>
+      </div>
+    </div>
+  </div>
 </section>
