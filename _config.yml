@@ -21,6 +21,19 @@ email      : antsonlennert@gmail.com #this is also the email contact forms will 
 description: "Nefzi Boxingclub Geraardsbergen 9500, Oost-Vlaanderen, België"
 author     : Lennert Antson
 
+facebook:
+  app_id: 100063531340259
+  publisher: 100063531340259
+  admins: 100063531340259
+
+social:
+  name: Nefzi Boxingclub
+  links:
+    - https://www.facebook.com/NefziBoxingclub/
+    - https://www.instagram.com/nefzi_boxing_club/
+    - https://www.facebook.com/ayoub.nefzi2
+    - https://www.instagram.com/ayoubnefzi1/
+
 locale: "nl-BE" # See available languages in _data/sitetext.yml
 
 languages:
