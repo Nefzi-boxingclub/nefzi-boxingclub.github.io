@@ -4,7 +4,7 @@ highlight: "#ff5050"
 #black: "#000"
 
 #Image Customization
-header-image: "../img/header.png"
+header-image: "../img/gym/club-foto.jpg"
 contact-image: "../img/contact.png"
 prices-image: "../img/gym/boxing-gloves.jpg"
 

@@ -5,8 +5,20 @@
 	<div class="container container-no-margin">
 		<div class="row trainer-section">
 			<div class="col-md-6 order-md-1 d-flex col-no-padding">
-				<img src="{{ site.data.sitetext[page.locale].trainer.image }}"
-					alt="{{ site.data.sitetext[page.locale].trainer.image-alt }}" class="img-fluid img-trainer">
+				<div class="image-container">
+					<img src="{{ site.data.sitetext[page.locale].trainer.image0 }}"
+						alt="{{ site.data.sitetext[page.locale].trainer.image-alt }}"
+						class="img-fluid img-trainer img-animation">
+					<img src="{{ site.data.sitetext[page.locale].trainer.image1 }}"
+						alt="{{ site.data.sitetext[page.locale].trainer.image-alt }}"
+						class="img-fluid img-trainer img-animation">
+					<img src="{{ site.data.sitetext[page.locale].trainer.image2 }}"
+						alt="{{ site.data.sitetext[page.locale].trainer.image-alt }}"
+						class="img-fluid img-trainer img-animation">
+					<img src="{{ site.data.sitetext[page.locale].trainer.image3 }}"
+						alt="{{ site.data.sitetext[page.locale].trainer.image-alt }}"
+						class="img-fluid img-trainer img-animation">
+				</div>
 			</div>
 			<div class="col-md-6 order-md-2 d-flex align-items-center text-center">
 				<div class="info-container">
@@ -27,8 +39,6 @@
 					<p class="trainer-palmares-item">{{ title.name }}</p>
 
 					{% endfor %}
-
-
 				</div>
 			</div>
 		</div>
