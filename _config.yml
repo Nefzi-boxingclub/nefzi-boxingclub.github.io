@@ -18,7 +18,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Nefzi Boxingclub
 email      : antsonlennert@gmail.com #this is also the email contact forms will go to
-description: "Site description"
+description: "Nefzi Boxingclub Geraardsbergen 9500, Oost-Vlaanderen, België"
 author     : Lennert Antson
 logo:     #optional, defaults to site title
   path: assets/img/logo-transparant-cropped.png
@@ -43,3 +43,4 @@ formspree_form_path: "f/mleybaqn"
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
