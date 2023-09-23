@@ -12,35 +12,49 @@
 
 .trainer-section {
   display: flex;
-  flex-direction: row; /* Default layout for larger screens */
+  flex-direction: row;
+  /* Default layout for larger screens */
 }
 
 .image-container {
-  flex: 1; /* Image takes 1/2 of the width on larger screens */
+  /* Image takes 1/2 of the width on larger screens */
+  flex: 1;
+  height: 100%;
+  overflow: hidden;
+  
+}
+
+.image-container img {
+  /* Images will not exceed the container width */
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Crop the image while preserving its aspect ratio */ 
+  object-position: center top; /* Crop from the bottom */
+
 }
 
 .info-container {
-  flex: 1; /* Info takes 1/2 of the width on larger screens */
+  flex: 1;
+  /* Info takes 1/2 of the width on larger screens */
   padding: 10%;
 }
 
-.img-trainer {
-  width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-}
+
 
 .trainer-description {
-  font-size: 22px;
+  font-size: 18px;
+  line-height: 24px;
+
 }
 
 .trainer-palmares {
-  font-size: 28px;
+  font-size: 26px;
   padding: 50px 20px 20px 20px;
 }
 
 .trainer-palmares-item {
   font-size: 18px;
+  line-height: 24px;
 }
 
 .text-bold {
@@ -50,20 +64,79 @@
 /* Media Query for Mobile Screens */
 @media (max-width: 767px) {
   .trainer-section {
-    flex-direction: column; /* Stacking elements for smaller screens */
+    flex-direction: column;
+    /* Stacking elements for smaller screens */
   }
-  
+
   .image-container,
   .info-container {
-    flex: auto; /* Elements take full width on smaller screens */
+    flex: auto;
+    /* Elements take full width on smaller screens */
   }
+
+  .image-container {
+    height: 400px;
+  }
+
   .section-heading-bottom-padding {
     padding-bottom: 10px;
   }
+
   .trainer-description {
-    font-size: 18px;
+    font-size: 16px;
   }
+
   .trainer-palmares-item {
     font-size: 16px;
+  }
+}
+
+.image-container {
+  position: relative;
+
+  img {
+    position: absolute;
+    animation-name: multiple-image-crossfade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 16s;
+
+    &:nth-of-type(1) {
+      animation-delay: 12s;
+    }
+
+    &:nth-of-type(2) {
+      animation-delay: 8s;
+    }
+
+    &:nth-of-type(3) {
+      animation-delay: 4s;
+    }
+
+    &:nth-of-type(4) {
+      animation-delay: 0s;
+    }
+  }
+}
+
+@keyframes multiple-image-crossfade {
+  0% {
+    opacity: 1;
+  }
+
+  17% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  92% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }

@@ -32,17 +32,17 @@ h6 {
 .page-section {
   padding: 60px 0 20px 0;
   h2.section-heading {
-    font-size: 48px;
-    margin-top: 0;
-    margin-bottom: 40px;
+    font-size: 42px;
+    font-family: 'Rajdhani, sans-serif';
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
   }
   h3.section-subheading {
-    font-size: 16px;
-    font-weight: 400;
-    font-style: italic;
-    margin-bottom: 35px;
-    text-transform: none;
-    @include serif-font;
+    padding-bottom: 20px;
   }
 }
 @media (min-width: 768px) {
@@ -52,6 +52,24 @@ h6 {
   .page-section {
     padding: 100px 0 150px 0;
   }
+  .page-section {
+    padding: 100px 0 150px 0;
+    h2.section-heading {
+      font-size: 34px;
+      margin-top: 0;
+      margin-bottom: 40px;
+    }
+    h3.section-subheading {
+      margin-top: 20px;
+      margin-bottom: 35px;
+      font-size: 16px;
+      font-weight: 400;
+      font-style: italic;    
+      text-transform: none;
+      @include serif-font;
+    }
+  }
+
 }
 
 // Highlight color customization

@@ -46,4 +46,9 @@ section#contact {
     color: $gray-400;
     @include heading-font;
   }
+
+  .padding-5pct{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }

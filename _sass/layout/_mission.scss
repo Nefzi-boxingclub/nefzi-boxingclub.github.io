@@ -1,5 +1,28 @@
-// Styling for the services section
-.mission-heading {
-  margin: 15px 0;
-  text-transform: none;
+section#mission {
+  background-color: rgb(24, 24, 24);
+}
+.color-white {
+  color: white;
+}
+
+.mission-subheading-style{
+  margin: 12%;
+  font-size: 18px !important;
+  line-height: 24px;
+  font-weight: 700;
+  color: white;
+  font-style: normal !important;
+}
+
+@media (min-width: 768px) {
+  .mission-subheading-style{
+    padding-top: 40px;
+    margin: 12%;
+    font-size: 18px !important;
+    line-height: 24px;
+    font-weight: 700;
+    color: white;
+    font-style: normal !important;
+  }
+
 }
