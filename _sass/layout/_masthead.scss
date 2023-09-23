@@ -7,8 +7,6 @@ header.masthead {
   background-attachment: scroll;
   background-position: top center;
   background-size: cover;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
@@ -20,7 +18,6 @@ header.masthead {
       text-transform: uppercase;
       text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.8); /* Add a black shadow to the text */
     }
-
   }
 }
 
