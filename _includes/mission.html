@@ -5,7 +5,13 @@
       <div class="col-lg-12 text-center">
         <h2 class="section-heading color-white">{{ site.data.sitetext[page.locale].mission.title | default:
           "mission" }}</h2>
-        <h3 class="section-subheading mission-subheading-style">{{ site.data.sitetext[page.locale].mission.text }}</h3>
+        <h3 class="section-subheading mission-intro">{{ site.data.sitetext[page.locale].mission.text-mission-vision }}</h3>
+        {% for value in site.data.sitetext[page.locale].mission.text-values %}
+          <h3 class="mission-values-title">{{ value.title }}</h3>
+          <br>
+          <h3 class="mission-values-description">{{ value.description }}</h3>
+          <br><br>
+        {% endfor %}
       </div>
     </div>
   </div>

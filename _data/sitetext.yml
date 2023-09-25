@@ -163,19 +163,55 @@ nl-BE:
 
   mission:
     title: "Missie & Visie"
-    text: "Welkom bij onze lokale boksclub in Geraardsbergen. Onze missie is eenvoudig maar krachtig:
-            toegankelijke bokstraining bieden voor iedereen, ongeacht leeftijd of geslacht. Bij onze club verwelkomen we
-            jong en oud, mannen en vrouwen, beginners en meer ervaren boksers. Wij geloven dat boksen niet
-            alleen een sport is, maar ook een levensstijl die kracht, discipline en zelfvertrouwen bevordert.
-            <br><br><br>
-            Onze toegewijde trainer staat klaar om je de skills van het boksen bij te brengen, of je nu komt om je
-            conditie te verbeteren, stress te verminderen of je techniek te verfijnen. We creëren een inclusieve
-            en ondersteunende omgeving waarin iedereen kan gedijen en zijn of haar persoonlijke doelen kan bereiken.
-            <br><br><br>
-            Naast het ontwikkelen van kracht, uithoudingsvermogen, motivatie en zelfvertrouwen, hechten we binnen
-            onze club veel waarde aan principes zoals fair play en samenwerking. 
-            Onze club biedt niet alleen een plek om fysieke vaardigheden te verbeteren, maar ook een toffe omgeving waar ieder zich thuisvoelt.
-            "    
+    text-mission-vision: "
+      Welkom bij onze lokale boksclub in Geraardsbergen waar iedereen welkom is, ongeacht hun vaardigheidsniveau, doelen of achtergrond.
+      Wij geloven dat boksen een geweldige manier is om jezelf uit te dagen, je conditie te verbeteren en waardevolle levensvaardigheden
+      te leren. Centraal in onze club staan toewijding om een positieve en ondersteunende trainingsomgeving te creëren, ongeacht of je
+      traint in functie van competitie, het verbeteren van jouw conditie, of om de kunst van het boksen technisch onder de knie te krijgen.
+
+      <br><br><br>
+
+      Ons doel is om je te helpen je boksvaardigheden te verbeteren, ongeacht je startpunt. 
+      Wij moedigen iedereen aan om zichzelf uit te dagen en hard te werken om hun doelen te bereiken.
+      <br><br><br>
+
+      Centraal in de training staat dan ook:
+    "
+    palmares:
+      record: "26 won - 12 lost - 2 draw"
+      titles:
+        - title:
+          name: "Belgium Super Welterweight Title"
+        - title:
+          name: "BeNeLux Super Welterweight Title"
+
+    text-values:
+      - value:
+        title: "Discipline"
+        description: "Wij geloven dat discipline essentieel is voor succes in boksen. Onze trainers stellen de lijnen van de training en we verwachten van alle deelnemers dat ze op tijd naar de training komen, dat ze luisteren en instructies opvolgen."
+      - value:
+        title: "Respect"
+        description: "Wij geloven dat het belangrijk is om je medeboksers en je trainer te respecteren. Dit betekent trainen met iedereen, ongeacht hun vaardigheidsniveau, en je agressie onder controle houden. Wij tolereren geen agressie in onze sportschool."
+      - value:
+        title: "Veiligheid"
+        description: "Boksen is een sport, geen gevecht. Wij trainen in een veilige omgeving en we verwachten van alle deelnemers dat ze zich bewust zijn van hun eigen veiligheid en de veiligheid van anderen."
+      - value:
+        title: "Netheid"
+        description: "Iedereen traint graag in een nette omgeving. Ruim uw afval op zodat de sportschool een aangename trainingszaal is voor iedereen."
+
+    #"Welkom bij onze lokale boksclub in Geraardsbergen. Onze missie is eenvoudig maar krachtig:
+    #        toegankelijke bokstraining bieden voor iedereen, ongeacht leeftijd of geslacht. Bij onze club verwelkomen we
+    #        jong en oud, mannen en vrouwen, beginners en meer ervaren boksers. Wij geloven dat boksen niet
+    #        alleen een sport is, maar ook een levensstijl die kracht, discipline en zelfvertrouwen bevordert.
+    #        <br><br><br>
+    #        Onze toegewijde trainer staat klaar om je de skills van het boksen bij te brengen, of je nu komt om je
+    #        conditie te verbeteren, stress te verminderen of je techniek te verfijnen. We creëren een inclusieve
+    #        en ondersteunende omgeving waarin iedereen kan gedijen en zijn of haar persoonlijke doelen kan bereiken.
+    #        <br><br><br>
+    #        Naast het ontwikkelen van kracht, uithoudingsvermogen, motivatie en zelfvertrouwen, hechten we binnen
+    #        onze club veel waarde aan principes zoals fair play en samenwerking. 
+    #        Onze club biedt niet alleen een plek om fysieke vaardigheden te verbeteren, maar ook een toffe omgeving waar ieder zich thuisvoelt.
+    #        "    
     section: mission
    
 
