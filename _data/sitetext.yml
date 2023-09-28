@@ -313,7 +313,7 @@ nl-BE:
       - private:
         title: "Privé training"
         description: ""
-        price: "90"
+        price: "100"
         frequency: "voor 4 beurten"
         info-schedule:
           - point:
