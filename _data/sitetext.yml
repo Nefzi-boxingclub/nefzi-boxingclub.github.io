@@ -277,7 +277,7 @@ nl-BE:
 
     categories:
       - teens:
-        title: "Jeugd"
+        title: "Jeugd (-17j)"
         description: "Jeugd onder 18 jaar"
         price: "40"
         frequency: "/ maand"
