@@ -13,13 +13,14 @@
 
 remote_theme: raviriley/agency-jekyll-theme
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "https://nefzi-boxingclub.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Nefzi Boxingclub
+title      : Nefzi Boxingclub | Boksen Geraardsbergen 
 email      : antsonlennert@gmail.com #this is also the email contact forms will go to
 description: "Nefzi Boxingclub Geraardsbergen 9500, Oost-Vlaanderen, België"
 author     : Lennert Antson
+logo       : /assets/img/logo-transparant-cropped.png
 
 facebook:
   app_id: 100063531340259
