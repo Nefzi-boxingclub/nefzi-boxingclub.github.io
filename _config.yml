@@ -21,7 +21,9 @@ email      : antsonlennert@gmail.com #this is also the email contact forms will 
 description: "Nefzi Boxingclub Geraardsbergen 9500, Oost-Vlaanderen, België"
 author     : Lennert Antson
 logo       : /assets/img/logo-transparant-cropped.png
-image      : /assets/img/logo-transparant-cropped.png
+
+image:
+  path: /assets/img/logo-transparant-cropped.png
 
 facebook:
   app_id: 100063531340259
