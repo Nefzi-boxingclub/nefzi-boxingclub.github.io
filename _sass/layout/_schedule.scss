@@ -420,13 +420,22 @@ Main Components
   .mobile-wrap-better {
     display: grid;
     padding: 5%;
-    grid-template-columns: repeat(2, 1fr); /* Create a 2x2 grid */
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 16px; /* Adjust the gap between items as needed */
   }
 
   .mobile-wrap-better li {
     overflow: hidden;
     width: calc(50% - 15px); /* Adjust the width of each grid item */
+  }
+
+  .cd-schedule .event-name {
+    font-size: 0.9rem;
+  }
+
+  .cd-schedule .events .single-event {
+    /* reset style */
+    width: 49%;
   }
 
   .bottom-section-subheading{
