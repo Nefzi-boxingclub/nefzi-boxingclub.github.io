@@ -208,57 +208,60 @@ nl-BE:
   schedule:
     title: "Uurrooster"
     section: schedule
-    bottom-note: "* Afhankelijk van de periode wordt deze les vervangen door competitietraining."
+    bottom-note: #"* Afhankelijk van de periode wordt deze les vervangen door competitietraining."
     days:
       - monday:
         name: "Maandag"
         events:
           - type: "boxing-adult"
             start: "17:00"
-            end: "18:30"
-            description: "Gevorderden"
+            end: "18:00"
+            description: "Competitie en volwassenen (+16j)"
       - tuesday:
         name: "Dinsdag"
         events:
+          - type: "boxing-teen"
+            start: "16:30"
+            end: "18:00"
+            description: "Tieners (12 t.e.m. 15j)"
           - type: "boxing-adult"
-            start: "17:00"
-            end: "18:30"
-            description: "Mixed (+12 jaar)"
+            start: "18:30"
+            end: "20:00"
+            description: "Volwassenen (+16j)"
       - wednesday:
         name: "Woensdag"
         events:
-          - type: "boxing-teen"
+          - type: "boxing-kids"
             start: "16:00"
             end: "17:00"
-            description: "Kids (-12 jaar)"
+            description: "Kids (-12j)"
       - thursday:
         name: "Donderdag"
         events:
-          - type: "boxing-adult"
+          - type: "boxing-teen"
             start: "17:00"
             end: "18:30"
-            description: "Mixed (+12 jaar)"
+            description: "Tieners (12 t.e.m. 15j)"
       - friday:
         name: "Vrijdag"
         events:
-          - type: "boxing-teen"
-            start: "17:00"
-            end: "18:00"
-            description: "Kids (-12 jaar)"
+          - type: "boxing-kids"
+            start: "16:30"
+            end: "17:30"
+            description: "Kids (-12j)"
+          - type: "boxing-adult"
+            start: "17:30"
+            end: "18:30"
+            description: "Competitie en volwassenen (+16j)"
       - saturday:
         name: "Zaterdag"
         events:
-          - type: "boxing-adult"
+          - type: "boxing-teen"
             start: "17:00"
             end: "18:30"
-            description: "Mixed (+12 jaar)"
+            description: "Mix (+12j)"
       - sunday:
         name: "Zondag"
-        events:
-          - type: "boxing-adult"
-            start: "11:15"
-            end: "12:45"
-            description: "Volwassenen en debutanten*"
 
   prices:
     title: "Tarieven"
@@ -322,7 +325,6 @@ nl-BE:
 
   trainer:
     title: "Trainer"
-    text: "Lorem ipsum dolor sit amet consectetur."
     section: trainer
     
     name: "Ayoub Nefzi"
@@ -369,7 +371,6 @@ nl-BE:
     section: location
 
   footer:
-    legal: "Privacy Policy"
     social:
       - url: https://www.facebook.com/NefziBoxingclub/
         icon: "fab fa-facebook-f"

@@ -134,7 +134,7 @@ Main Components
   }
   .cd-schedule ._timeline li {
     position: relative;
-    height: 25px;
+    height: 40px;
   }
 
   .cd-schedule ._timeline li::after {
@@ -276,7 +276,7 @@ Main Components
     margin-bottom: 0;
   }
   .cd-schedule .events .events-group > ul {
-    height: 425px;
+    height: 479px;
     /* reset style */
     display: block;
     overflow: visible;
@@ -372,7 +372,7 @@ Main Components
     transform: scale(1.06, 1.06);
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1100px) {
   .cd-schedule .event-name {
     font-size: 0.9rem;
     max-width: 100%;
@@ -380,15 +380,25 @@ Main Components
   }
 }
 
-
-.cd-schedule .single-event[data-event="boxing-teen"],
-.cd-schedule [data-event="boxing-teen"] .header-bg {
+.cd-schedule .single-event[data-event="boxing-kids"],
+.cd-schedule [data-event="boxing-kids"] .header-bg {
   /* this is used to set a background color for the event and the modal window */
   background: #e72222e0; // #577F92;
 }
 
-.cd-schedule .single-event[data-event="boxing-teen"]:hover {
+.cd-schedule .single-event[data-event="boxing-kids"]:hover {
   background: #e72222; // #618da1;
+}
+
+
+.cd-schedule .single-event[data-event="boxing-teen"],
+.cd-schedule [data-event="boxing-teen"] .header-bg {
+  /* this is used to set a background color for the event and the modal window */
+  background: $gray-600; // #577F92;
+}
+
+.cd-schedule .single-event[data-event="boxing-teen"]:hover {
+  background: $gray-700; // #618da1;
 }
 
 .cd-schedule .single-event[data-event="boxing-adult"],
@@ -433,6 +443,6 @@ Main Components
 }
 @media (min-width: 1200px) {
   .container {
-      max-width: 1200px;
+      max-width: 1400px;
   }
 }

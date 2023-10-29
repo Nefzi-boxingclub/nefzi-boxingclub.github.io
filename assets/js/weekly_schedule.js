@@ -64,9 +64,12 @@ jQuery(document).ready(function($){
 			var eventTop = self.eventSlotHeight*(start - self.timelineStart)/self.timelineUnitDuration,
 				eventHeight = self.eventSlotHeight*duration/self.timelineUnitDuration;
 			
+			// Play around with this factor
+			var scaleFactor = 1.24
 			$(this).css({
-				top: (eventTop)/2 - 1 +'px',
-				height: (eventHeight)/2 +2 +'px'
+				
+				top: (eventTop)/(scaleFactor) - 2 +'px',
+				height: (eventHeight)/(scaleFactor) +'px'
 			});
 		});
 
