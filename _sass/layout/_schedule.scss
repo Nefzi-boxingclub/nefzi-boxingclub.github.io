@@ -425,6 +425,7 @@ Main Components
   }
 
   .mobile-wrap-better li {
+    overflow: hidden;
     width: calc(50% - 15px); /* Adjust the width of each grid item */
   }
 
