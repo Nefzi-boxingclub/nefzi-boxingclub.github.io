@@ -145,7 +145,6 @@ en-US:
     submit: "Send Message"
 
   footer:
-    legal: "Privacy Policy"
     social:
       - url: https://www.facebook.com/NefziBoxingclub/
         icon: "fab fa-facebook-f"
@@ -162,6 +161,7 @@ nl-BE:
     buttonlink: "#mission"
 
   mission:
+    section: mission
     title: "Missie & Visie"
     text-mission-vision: "
       Welkom bij onze lokale boksclub in Geraardsbergen waar iedereen welkom is, ongeacht hun vaardigheidsniveau, doelen of achtergrond.
@@ -177,14 +177,6 @@ nl-BE:
 
       Centraal in de training staat dan ook:
     "
-    palmares:
-      record: "26 won - 12 lost - 2 draw"
-      titles:
-        - title:
-          name: "Belgium Super Welterweight Title"
-        - title:
-          name: "BeNeLux Super Welterweight Title"
-
     text-values:
       - value:
         title: "Discipline"
@@ -212,8 +204,6 @@ nl-BE:
     #        onze club veel waarde aan principes zoals fair play en samenwerking. 
     #        Onze club biedt niet alleen een plek om fysieke vaardigheden te verbeteren, maar ook een toffe omgeving waar ieder zich thuisvoelt.
     #        "    
-    section: mission
-   
 
   schedule:
     title: "Uurrooster"
