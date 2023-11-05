@@ -13,7 +13,7 @@
 
 remote_theme: raviriley/agency-jekyll-theme
 
-url    : "https://nefzi-boxingclub.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "https://nefzi-boxingclub.github.io/nl" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Nefzi Boxingclub | Boksen Geraardsbergen 
