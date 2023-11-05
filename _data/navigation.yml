@@ -7,8 +7,8 @@
 # How to use:
 # {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
 
-# English (default)
-# -----------------
+# English
+# -------
 en-US:
   nav:
     - title: "Mission & vision"
@@ -24,6 +24,8 @@ en-US:
     - title: "Contact"
       section: contact
 
+# Dutch
+# -----
 nl-BE:
   nav:
     - title: "Missie & visie"
@@ -42,19 +44,19 @@ nl-BE:
     #  section: 
 
 
+# French
+# ------
 fr-BE:
   nav:
-    - title: "*todo*"
-      section: "*todo*"
-    - title: "*todo*"
-      section: "*todo*"
-    - title: "*todo*"
-      section: "*todo*"
-    - title: "*todo*"
-      section: "*todo*"
-    - title: "*todo*"
-      section: "*todo*"
-    - title: "*todo*"
-      section: "*todo*"
-    - title: "*todo*"
-      url: "*todo*"
+    - title: "Mission & vision"
+      section: mission
+    - title: "Entraîneur"
+      section: trainer
+    - title: "Horaires"
+      section: schedule
+    - title: "Tarifs"
+      section: prices
+    - title: "Location"
+      section: location
+    - title: "Contact"
+      section: contact

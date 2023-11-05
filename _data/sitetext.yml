@@ -154,7 +154,7 @@ en-US:
           - point:
             description: "Possible by appointment"
           - point:
-            description: "One-to-one pad work"
+            description: "One-on-one pad work"
           - point:
             description: "Focused on your needs (cardio, technique, competition)"
           - point:
@@ -434,124 +434,204 @@ nl-BE:
       - url: https://www.instagram.com/nefzi_boxing_club/
         icon: "fab fa-instagram"
 
-
+# French
 fr-BE:
   header:
-    title: todo
-    text: todo
-    button: todo
-    buttonlink: "#services"
+    title: Bienvenue au Nefzi Boxingclub Grammont!
+    button: Lire plus
+    buttonlink: "#mission"
 
-  services:
-    title: "Services"
-    text: "Lorem ipsum"
-    section: services
-    list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+  mission:
+    section: mission
+    title: "Mission & Vision"
+    text-mission-vision: "
+      Bienvenue dans notre club de boxe local à Grammont où tout le monde est le bienvenu, quel que soit son niveau de compétence, ses objectifs ou ses antécédents.
+      Nous pensons que la boxe est un excellent moyen de se mettre au défi, d'améliorer sa forme physique et d'acquérir des compétences utiles dans la vie quotidienne. 
+      Notre club s'engage à créer un environnement d'entraînement positif et encourageant, que vous vous entraîniez pour la compétition, pour améliorer votre condition physique ou pour maîtriser techniquement l'art de la boxe.
 
-  portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"
+      <br><br><br>
 
-  timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+      Notre objectif est de vous aider à améliorer vos compétences en boxe, quel que soit votre point de départ. 
+      Nous encourageons chacun à se mettre au défi et à travailler dur pour atteindre ses objectifs.
+      <br><br><br>
 
-  about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
+      L'élément central de l'entraînement est le suivant :
+    "
+    text-values:
+      - value:
+        title: "Discipline"
+        description: "Nous pensons que la discipline est essentielle pour réussir dans la boxe. Nos entraîneurs fixent les lignes de l'entraînement et nous attendons de tous les participants qu'ils arrivent à l'heure à l'entraînement, qu'ils écoutent et qu'ils suivent les instructions."
+      - value:
+        title: "Respect"
+        description: "Nous pensons qu'il est important de respecter les autres boxeurs et votre entraîneur. Cela signifie qu'il faut s'entraîner avec tout le monde, quel que soit le niveau de compétence, et garder le contrôle de ses émotions. Nous ne tolérons pas l'agressivité dans notre salle de sport."
+      - value:
+        title: "Sécurité"
+        description: "La boxe est un sport, pas un combat. Nous nous entraînons dans un environnement sûr et nous attendons de tous les participants qu'ils soient conscients de leur propre sécurité et de celle des autres."
+      - value:
+        title: "Propreté"
+        description: "Tout le monde aime s'entraîner dans un environnement ordonné. Nettoyez vos déchets pour que le gymnase soit une salle d'entraînement agréable pour tout le monde."
 
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+  schedule:
+    title: "Horaire"
+    section: schedule
+    bottom-note: #"* Afhankelijk van de periode wordt deze les vervangen door competitietraining."
+    days:
+      - monday:
+        name: "Lundi"
+        events:
+          - type: "boxing-adult"
+            start: "17:00"
+            end: "18:00"
+            description: "Compétition et adultes (+16 ans)"
+      - tuesday:
+        name: "Mardi"
+        events:
+          - type: "boxing-teen"
+            start: "16:30"
+            end: "18:00"
+            description: "Adolescents (12 à 15 ans)"
+          - type: "boxing-adult"
+            start: "18:30"
+            end: "20:00"
+            description: "Adultes (+16 ans)"
+      - wednesday:
+        name: "Mercredi"
+        events:
+          - type: "boxing-kids"
+            start: "16:00"
+            end: "17:00"
+            description: "Enfants (-12 ans)"
+      - thursday:
+        name: "Jeudi"
+        events:
+          - type: "boxing-teen"
+            start: "17:00"
+            end: "18:30"
+            description: "Adolescents (12 à 15 ans)"
+      - friday:
+        name: "Vendredi"
+        events:
+          - type: "boxing-kids"
+            start: "16:30"
+            end: "17:30"
+            description: "Enfants (-12 ans)"
+          - type: "boxing-adult"
+            start: "17:30"
+            end: "18:30"
+            description: "Compétition et adultes (+16 ans)"
+      - saturday:
+        name: "Samedi"
+        events:
+          - type: "boxing-teen"
+            start: "17:00"
+            end: "18:30"
+            description: "Mix (+12 ans)"
+      - sunday:
+        name: "Dimanche"
 
-  team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+  prices:
+    title: "Tarifs"
+    text: "Voici les tarifs du club.<br>Actuellement, seuls des abonnements mensuels sont proposés.<br>Lors de l'inscription, un supplément unique de 15 euros est demandé pour l'assurance sportive, qui est valable pendant un an."
+    section: prices
+
+    categories:
+      - teens:
+        title: "Adolescents (-17 ans)"
+        price: "40"
+        frequency: "/ mois"
+        info-schedule:
+          - point:
+            description: "2 entraînements collectifs / semaine (enfants -12 ans)"
+          - point:
+            description: "3 entraînements collectifs / semaine (mixed +12 ans)"
+        info-training:
+          - point:
+            description: "Concentré sur l'apprentissage des bases"
+          - point:
+            description: "Concentré sur la technique et cardio"
+      - adults:
+        title: "Adultes"
+        description: ""
+        price: "50"
+        frequency: "/ mois"
+        info-schedule:
+          - point:
+            description: "3 entraînements collectifs / semaine (mixed +12 ans)"
+          - point:
+            description: "1 entraînement collectifs supplémentaire (pour +16 ans)"
+          - point:
+            description: "1 entraînement collectifs pour les avancés<br>(à l'admission de l'entraîneur)"
+        info-training:
+          - point:
+            description: "Concentré sur la technique et cardio"
+          - point:
+            description: "Concentré aux compétitifs (avancés)"
+      - private:
+        title: "Entraînement privé"
+        description: ""
+        price: "100"
+        frequency: "pour 4 fois"
+        info-schedule:
+          - point:
+            description: "Entraînement de boxe individuel (1h) avec Ayoub"
+
+        info-training:         
+          - point:
+            description: "Possible sur rendez-vous"
+          - point:
+            description: "Un à un pad work"
+          - point:
+            description: "Concentré sur vos besoins (cardio, technique, compétition)"
+          - point:
+            description: "Pour les débutants et les boxeurs avancés"
+
+  trainer:
+    title: "L'entraîneur"
+    section: trainer
+    
+    name: "Ayoub Nefzi"
+    description: "Ayoub Nefzi est le fondateur du Nefzi Boxingclub et un véritable passionné de boxe. Ancien professionnel, il a boxé au plus haut niveau pendant de nombreuses années. Ces dernières années, il s'est principalement consacré à l'entraînement des autres, y compris des débutants et des boxeurs plus avancés."
+    image0: assets/img/trainer/ayoub-nefzi.jpg
+    image1: assets/img/trainer/ayoub-nefzi-1.jpg
+    image2: assets/img/trainer/ayoub-nefzi-5.jpg
+    image3: assets/img/trainer/ayoub-nefzi-4.jpg
+
+    image-alt: "Ayoub Nefzi - L'entraîneur Nefzi Boxingclub Grammont"
+    palmares:
+      record: "26 won - 12 lost - 2 draw"
+      titles:
+        - title:
+          name: "Belgium Super Welterweight Title"
+        - title:
+          name: "BeNeLux Super Welterweight Title"
+        - title:
+          name: "IBF International Super Welterweight Title"
+        - title:
+          name: "IBF Continental Africa Super Welterweight Title"
+        - title:
+          name: "Fight Of The Year 2012"
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Questions? Contactez nous!"
+    text: ""
     section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
+    name: "Nom*"
+    name-validation: "Veuillez entrer votre nom!"
+    email: "E-mail*"
+    email-validation: "Veuillez entrer votre adresse e-mail!"
+    phone: "Numéro de téléphone*"
+    phone-validation: "Veuillez entrer votre numéro de téléphone!"
     message: "Message*"
-    message-validation: "Please enter a message."
+    message-validation: "Veuillez entrer le message !"
     subject: "Contact Form Submission"
-    submit: "Send Message"
+    submit: "Envoyer le message"
+  
+  location:
+    title: "Location"
+    text: "Sporthal de Veldmuis<br>Felicien Cauwelstraat 39, 9500 Grammont"
+    section: location
 
   footer:
-    legal: "Privacy Policy"
     social:
       - url: https://www.facebook.com/NefziBoxingclub/
         icon: "fab fa-facebook-f"
