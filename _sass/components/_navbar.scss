@@ -10,6 +10,7 @@
     color: white;
     border: 0;
     background-color: $primary;
+    outline: none;
     @include heading-font;
   }
 
@@ -37,6 +38,18 @@
         &.active,
         &:hover {
           color: rgb(255, 255, 255);
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1280px) {
+  #mainNav {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          font-size: 85%;
         }
       }
     }
