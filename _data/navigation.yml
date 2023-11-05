@@ -11,20 +11,18 @@
 # -----------------
 en-US:
   nav:
-    - title: "*todo*"
-      section: "*todo*"
-    - title: "*todo*"
-      section: "*todo*"
-    - title: "*todo*"
-      section: "*todo*"
-    - title: "*todo*"
-      section: "*todo*"
-    - title: "*todo*"
-      section: "*todo*"
-    - title: "*todo*"
-      section: "*todo*"
-    - title: "*todo*"
-      url: "*todo*"
+    - title: "Mission & vision"
+      section: mission
+    - title: "Trainer"
+      section: trainer
+    - title: "Schedule"
+      section: schedule
+    - title: "Prices"
+      section: prices
+    - title: "Location"
+      section: location
+    - title: "Contact"
+      section: contact
 
 nl-BE:
   nav:
