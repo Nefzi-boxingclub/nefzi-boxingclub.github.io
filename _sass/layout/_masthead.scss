@@ -162,10 +162,12 @@ header.masthead {
 @media (max-width: 992px) {
   .dropdown {
     position: absolute;
+    top: 25px;
     right: 80px
   }
   .navbar-toggler {
     position: absolute;
+    top: 25px;
     right: 20px !important;
   }
 }
@@ -174,6 +176,12 @@ header.masthead {
 @media (max-width: 468px) {
   .navbar-brand img {
     height: 40px;
+  }
+  .dropdown {
+    top: 15px;
+  }
+  .navbar-toggler {
+    top: 15px;
   }
 }
 

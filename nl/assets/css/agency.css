@@ -392,16 +392,24 @@ header.masthead .intro-text .intro-lead-in {
 @media (max-width: 992px) {
   .dropdown {
     position: absolute;
+    top: 25px;
     right: 80px;
   }
   .navbar-toggler {
     position: absolute;
+    top: 25px;
     right: 20px !important;
   }
 }
 @media (max-width: 468px) {
   .navbar-brand img {
     height: 40px;
+  }
+  .dropdown {
+    top: 15px;
+  }
+  .navbar-toggler {
+    top: 15px;
   }
 }
 @media (min-width: 991px) {
