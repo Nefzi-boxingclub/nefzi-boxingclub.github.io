@@ -4,7 +4,6 @@
   <meta name="description" content="{{ site.description }}">
   <meta name="author" content="{{ site.author }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  {% I18n_Headers %}
   <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
   <!-- Bootstrap core CSS -->
