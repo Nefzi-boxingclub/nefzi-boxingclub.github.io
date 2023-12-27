@@ -1,10 +1,11 @@
 <!-- Location -->
-<section class="page-section" id="{{ site.data.sitetext[page.locale].location.section | default: " location" }}">
+{% assign lang = site.active_lang %}
+<section class="page-section" id="{{ site.data[lang].sitetext.location.section | default: " location" }}">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{ site.data.sitetext[page.locale].location.title }}</h2>
-                <h3 class="section-subheading section-subheading-location">{{ site.data.sitetext[page.locale].location.text }}</h3>
+                <h2 class="section-heading">{{ site.data[lang].sitetext.location.title }}</h2>
+                <h3 class="section-subheading section-subheading-location">{{ site.data[lang].sitetext.location.text }}</h3>
             </div>
         </div>
         <div class="row d-flex justify-content-center map-location">

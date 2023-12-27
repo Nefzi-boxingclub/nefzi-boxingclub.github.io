@@ -1,40 +1,41 @@
 <!-- Trainer -->
+{% assign lang = site.active_lang %}
 <section class="bg-light page-section page-section-no-padding"
-	id="{{ site.data.sitetext[page.locale].trainer.section | default: 'trainer' }}">
+	id="{{ site.data[lang].sitetext.trainer.section | default: 'trainer' }}">
 
 	<div class="container container-no-margin">
 		<div class="row trainer-section">
 			<div class="col-md-6 order-md-1 d-flex col-no-padding">
 				<div class="image-container">
-					<img src="{{ site.data.sitetext[page.locale].trainer.image0 }}"
-						alt="{{ site.data.sitetext[page.locale].trainer.image-alt }}"
+					<img src="{{ site.data[lang].sitetext.trainer.image0 }}"
+						alt="{{ site.data[lang].sitetext.trainer.image-alt }}"
 						class="img-fluid img-trainer img-animation">
-					<img src="{{ site.data.sitetext[page.locale].trainer.image1 }}"
-						alt="{{ site.data.sitetext[page.locale].trainer.image-alt }}"
+					<img src="{{ site.data[lang].sitetext.trainer.image1 }}"
+						alt="{{ site.data[lang].sitetext.trainer.image-alt }}"
 						class="img-fluid img-trainer img-animation">
-					<img src="{{ site.data.sitetext[page.locale].trainer.image2 }}"
-						alt="{{ site.data.sitetext[page.locale].trainer.image-alt }}"
+					<img src="{{ site.data[lang].sitetext.trainer.image2 }}"
+						alt="{{ site.data[lang].sitetext.trainer.image-alt }}"
 						class="img-fluid img-trainer img-animation">
-					<img src="{{ site.data.sitetext[page.locale].trainer.image3 }}"
-						alt="{{ site.data.sitetext[page.locale].trainer.image-alt }}"
+					<img src="{{ site.data[lang].sitetext.trainer.image3 }}"
+						alt="{{ site.data[lang].sitetext.trainer.image-alt }}"
 						class="img-fluid img-trainer img-animation">
 				</div>
 			</div>
 			<div class="col-md-6 order-md-2 d-flex align-items-center text-center">
 				<div class="info-container">
 					<h2 class="section-heading">{{
-						site.data.sitetext[page.locale].trainer.title }}</h2>
+						site.data[lang].sitetext.trainer.title }}</h2>
 
-					<h2 class="text-bold trainer-palmares">{{ site.data.sitetext[page.locale].trainer.name }}</h2>
-					<p class="trainer-description">{{ site.data.sitetext[page.locale].trainer.description }}
+					<h2 class="text-bold trainer-palmares">{{ site.data[lang].sitetext.trainer.name }}</h2>
+					<p class="trainer-description">{{ site.data[lang].sitetext.trainer.description }}
 					</p>
 
 					<p class="text-bold trainer-palmares">Palmares</p>
 
 					<p class="trainer-palmares-item">{{
-						site.data.sitetext[page.locale].trainer.palmares.record }}</p>
+						site.data[lang].sitetext.trainer.palmares.record }}</p>
 
-					{% for title in site.data.sitetext[page.locale].trainer.palmares.titles %}
+					{% for title in site.data[lang].sitetext.trainer.palmares.titles %}
 					<p>-</p>
 					<p class="trainer-palmares-item">{{ title.name }}</p>
 

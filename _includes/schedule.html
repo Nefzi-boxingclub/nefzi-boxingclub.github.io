@@ -1,8 +1,9 @@
-<section class="page-section" id="{{ site.data.sitetext[page.locale].schedule.section | default: " schedule" }}">
+{% assign lang = site.active_lang %}
+<section class="page-section" id="{{ site.data[lang].sitetext.schedule.section | default: " schedule" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">{{ site.data.sitetext[page.locale].schedule.title }}</h2>
+        <h2 class="section-heading">{{ site.data[lang].sitetext.schedule.title }}</h2>
       </div>
     </div>
     <div class="row">
@@ -29,7 +30,7 @@
 
           <div class="events">
             <ul class="wrap mobile-wrap-better">
-              {% for day in site.data.sitetext[page.locale].schedule.days %}
+              {% for day in site.data[lang].sitetext.schedule.days %}
               <li class="events-group">
                 {% if day.events %}
                 <div class="top-info"><span>{{ day.name }}</span></div>
@@ -55,7 +56,7 @@
     </div>
     <div class="row">
       <div class="col-lg-12 ">
-        <h3 class="bottom-section-subheading text-center">{{ site.data.sitetext[page.locale].schedule.bottom-note }}
+        <h3 class="bottom-section-subheading text-center">{{ site.data[lang].sitetext.schedule.bottom-note }}
           </h2>
       </div>
     </div>

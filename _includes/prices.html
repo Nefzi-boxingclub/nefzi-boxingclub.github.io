@@ -1,11 +1,12 @@
-<!-- About -->
-<section class="page-section" id="{{ site.data.sitetext[page.locale].prices.section | default: " prices" }}">
+<!-- Prices -->
+{% assign lang = site.active_lang %}
+<section class="page-section" id="{{ site.data[lang].sitetext.prices.section | default: " prices" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">{{ site.data.sitetext[page.locale].prices.title | markdownify |
+        <h2 class="section-heading">{{ site.data[lang].sitetext.prices.title | markdownify |
           default: "About" }}</h2>
-        <h3 class="section-subheading section-subheading-prices">{{ site.data.sitetext[page.locale].prices.text}}</h3>
+        <h3 class="section-subheading section-subheading-prices">{{ site.data[lang].sitetext.prices.text}}</h3>
       </div>
     </div>
     <div class="row">
@@ -13,7 +14,7 @@
         <!-- https://codes4education.com/responsive-pricing-table-card-design-with-bootstrap/ -->
         <div class="container mb-5 mt-5">
           <div class="pricing card-deck flex-column flex-md-row mb-3 ">
-            {% for category in site.data.sitetext[page.locale].prices.categories %}
+            {% for category in site.data[lang].sitetext.prices.categories %}
             <div class="card card-pricing text-center px-2 mb-4">
               <span class="h6 w-60 mx-auto px-5 py-2 rounded-bottom card-color text-white shadow-sm card-title">{{
                 category.title }}</span>

@@ -1,12 +1,13 @@
 <!-- Mission -->
-<section class="page-section" id="{{ site.data.sitetext[page.locale].mission.section | default: " mission" }}">
+{% assign lang = site.active_lang %}
+<section class="page-section" id="{{ site.data[lang].sitetext.mission.section | default: " mission" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading color-white">{{ site.data.sitetext[page.locale].mission.title | default:
+        <h2 class="section-heading color-white">{{ site.data[lang].sitetext.mission.title | default:
           "mission" }}</h2>
-        <h3 class="section-subheading mission-intro">{{ site.data.sitetext[page.locale].mission.text-mission-vision }}</h3>
-        {% for value in site.data.sitetext[page.locale].mission.text-values %}
+        <h3 class="section-subheading mission-intro">{{ site.data[lang].sitetext.mission.text-mission-vision }}</h3>
+        {% for value in site.data[lang].sitetext.mission.text-values %}
           <h3 class="mission-values-title">{{ value.title }}</h3>
           <br>
           <h3 class="mission-values-description">{{ value.description }}</h3>

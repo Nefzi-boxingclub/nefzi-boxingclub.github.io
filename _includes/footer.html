@@ -10,7 +10,7 @@
       <!-- Social Media -->
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
-          {% for link in site.data.sitetext[page.locale].footer.social %}
+          {% for link in site.data[lang].sitetext.footer.social %}
           <li class="list-inline-item">
             {% if link.url %}
             <a href="{{ link.url }}" target="_blank">

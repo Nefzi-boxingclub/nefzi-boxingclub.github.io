@@ -1,10 +1,11 @@
 <!-- Contact -->
-<section class="page-section" id="{{ site.data.sitetext[page.locale].contact.section | default: " contact" }}">
+{% assign lang = site.active_lang %}
+<section class="page-section" id="{{ site.data[lang].sitetext.contact.section | default: " contact" }}">
   <div class="container padding-5pct">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">
-          {{ site.data.sitetext[page.locale].contact.title | markdownify | default: Contact Us }}</h2>
+          {{ site.data[lang].sitetext.contact.title | markdownify | default: Contact Us }}</h2>
       </div>
     </div>
     <div class="row">
@@ -17,25 +18,25 @@
             <div class="col-md-6">
               <div class="form-group">
                 <input name="name" class="form-control" id="name" type="text"
-                  placeholder="{{ site.data.sitetext[page.locale].contact.name | default: " Name*" }}"
+                  placeholder="{{ site.data[lang].sitetext.contact.name | default: " Name*" }}"
                   required="required"
-                  data-validation-required-message="{{ site.data.sitetext[page.locale].contact.name-validation | default: "
+                  data-validation-required-message="{{ site.data[lang].sitetext.contact.name-validation | default: "
                   Please enter your name." }}">
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
                 <input name="_replyto" class="form-control" id="email" type="email"
-                  placeholder="{{ site.data.sitetext[page.locale].contact.email | default: " Email*" }}"
+                  placeholder="{{ site.data[lang].sitetext.contact.email | default: " Email*" }}"
                   required="required"
-                  data-validation-required-message="{{ site.data.sitetext[page.locale].contact.email-validation | default: "
+                  data-validation-required-message="{{ site.data[lang].sitetext.contact.email-validation | default: "
                   Please enter your email address." }}">
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
                 <input name="phone" class="form-control" id="phone" type="tel"
-                  placeholder="{{ site.data.sitetext[page.locale].contact.phone | default: " Phone Number*" }}"
+                  placeholder="{{ site.data[lang].sitetext.contact.phone | default: " Phone Number*" }}"
                   required="required"
-                  data-validation-required-message="{{ site.data.sitetext[page.locale].contact.phone-validation | default: "
+                  data-validation-required-message="{{ site.data[lang].sitetext.contact.phone-validation | default: "
                   Please enter your phone number." }}">
                 <p class="help-block text-danger"></p>
               </div>
@@ -43,20 +44,20 @@
             <div class="col-md-6">
               <div class="form-group">
                 <textarea name="message" class="form-control" id="message"
-                  placeholder="{{ site.data.sitetext[page.locale].contact.message | default: " Message*" }}"
+                  placeholder="{{ site.data[lang].sitetext.contact.message | default: " Message*" }}"
                   required="required"
-                  data-validation-required-message="{{ site.data.sitetext[page.locale].contact.message-validation | default: "
+                  data-validation-required-message="{{ site.data[lang].sitetext.contact.message-validation | default: "
                   Please enter a message." }}"></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <input type="hidden" name="_subject" id="email-subject"
-              value="{{ site.data.sitetext[page.locale].contact.subject | default: " Contact Form Submission" }}">
+              value="{{ site.data[lang].sitetext.contact.subject | default: " Contact Form Submission" }}">
             <div class="clearfix"></div>
             <div class="col-lg-12 text-center">
               <div id="success"></div>
               <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">{{
-                site.data.sitetext[page.locale].contact.submit | default: "Send Message" }}</button>
+                site.data[lang].sitetext.contact.submit | default: "Send Message" }}</button>
             </div>
             <input type="text" name="_gotcha" style="display:none">
             <input type="hidden" name="_next" value="#" />

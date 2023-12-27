@@ -1,0 +1,13 @@
+nav:
+  - title: "Mission & vision"
+    section: mission
+  - title: "Trainer"
+    section: trainer
+  - title: "Schedule"
+    section: schedule
+  - title: "Prices"
+    section: prices
+  - title: "Location"
+    section: location
+  - title: "Contact"
+    section: contact

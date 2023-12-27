@@ -1,0 +1,216 @@
+header:
+  title: Welkom bij Nefzi Boxingclub Geraardsbergen!
+  button: Lees meer
+  buttonlink: "#mission"
+
+mission:
+  section: mission
+  title: "Missie & Visie"
+  text-mission-vision: "
+    Welkom bij onze lokale boksclub in Geraardsbergen waar iedereen welkom is, ongeacht hun vaardigheidsniveau, doelen of achtergrond.
+    Wij geloven dat boksen een geweldige manier is om jezelf uit te dagen, je conditie te verbeteren en waardevolle levensvaardigheden
+    te leren. Centraal in onze club staan toewijding om een positieve en ondersteunende trainingsomgeving te creëren, ongeacht of je
+    traint in functie van competitie, het verbeteren van jouw conditie, of om de kunst van het boksen technisch onder de knie te krijgen.
+
+    <br><br><br>
+
+    Ons doel is om je te helpen je boksvaardigheden te verbeteren, ongeacht je startpunt. 
+    Wij moedigen iedereen aan om zichzelf uit te dagen en hard te werken om hun doelen te bereiken.
+    <br><br><br>
+
+    Centraal in de training staat dan ook:
+  "
+  text-values:
+    - value:
+      title: "Discipline"
+      description: "Wij geloven dat discipline essentieel is voor succes in boksen. Onze trainers stellen de lijnen van de training en we verwachten van alle deelnemers dat ze op tijd naar de training komen, dat ze luisteren en instructies opvolgen."
+    - value:
+      title: "Respect"
+      description: "Wij geloven dat het belangrijk is om je medeboksers en je trainer te respecteren. Dit betekent trainen met iedereen, ongeacht hun vaardigheidsniveau, en je emoties onder controle houden. Wij tolereren geen agressie in onze sportschool."
+    - value:
+      title: "Veiligheid"
+      description: "Boksen is een sport, geen gevecht. Wij trainen in een veilige omgeving en we verwachten van alle deelnemers dat ze zich bewust zijn van hun eigen veiligheid en de veiligheid van anderen."
+    - value:
+      title: "Netheid"
+      description: "Iedereen traint graag in een nette omgeving. Ruim uw afval op zodat de sportschool een aangename trainingszaal is voor iedereen."
+
+  #"Welkom bij onze lokale boksclub in Geraardsbergen. Onze missie is eenvoudig maar krachtig:
+  #        toegankelijke bokstraining bieden voor iedereen, ongeacht leeftijd of geslacht. Bij onze club verwelkomen we
+  #        jong en oud, mannen en vrouwen, beginners en meer ervaren boksers. Wij geloven dat boksen niet
+  #        alleen een sport is, maar ook een levensstijl die kracht, discipline en zelfvertrouwen bevordert.
+  #        <br><br><br>
+  #        Onze toegewijde trainer staat klaar om je de skills van het boksen bij te brengen, of je nu komt om je
+  #        conditie te verbeteren, stress te verminderen of je techniek te verfijnen. We creëren een inclusieve
+  #        en ondersteunende omgeving waarin iedereen kan gedijen en zijn of haar persoonlijke doelen kan bereiken.
+  #        <br><br><br>
+  #        Naast het ontwikkelen van kracht, uithoudingsvermogen, motivatie en zelfvertrouwen, hechten we binnen
+  #        onze club veel waarde aan principes zoals fair play en samenwerking. 
+  #        Onze club biedt niet alleen een plek om fysieke vaardigheden te verbeteren, maar ook een toffe omgeving waar ieder zich thuisvoelt.
+  #        "    
+
+schedule:
+  title: "Uurrooster"
+  section: schedule
+  bottom-note: #"* Afhankelijk van de periode wordt deze les vervangen door competitietraining."
+  days:
+    - monday:
+      name: "Maandag"
+      events:
+        - type: "boxing-adult"
+          start: "17:00"
+          end: "18:00"
+          description: "Competitie en volwassenen (+16j)"
+    - tuesday:
+      name: "Dinsdag"
+      events:
+        - type: "boxing-teen"
+          start: "16:30"
+          end: "18:00"
+          description: "Tieners (12 t.e.m. 15j)"
+        - type: "boxing-adult"
+          start: "18:30"
+          end: "20:00"
+          description: "Volwassenen (+16j)"
+    - wednesday:
+      name: "Woensdag"
+      events:
+        - type: "boxing-kids"
+          start: "16:00"
+          end: "17:00"
+          description: "Kids (-12j)"
+    - thursday:
+      name: "Donderdag"
+      events:
+        - type: "boxing-teen"
+          start: "17:00"
+          end: "18:30"
+          description: "Tieners (12 t.e.m. 15j)"
+    - friday:
+      name: "Vrijdag"
+      events:
+        - type: "boxing-kids"
+          start: "16:30"
+          end: "17:30"
+          description: "Kids (-12j)"
+        - type: "boxing-adult"
+          start: "17:30"
+          end: "18:30"
+          description: "Competitie en volwassenen (+16j)"
+    - saturday:
+      name: "Zaterdag"
+      events:
+        - type: "boxing-teen"
+          start: "17:00"
+          end: "18:30"
+          description: "Mix (+12j)"
+    - sunday:
+      name: "Zondag"
+
+prices:
+  title: "Tarieven"
+  text: "Hieronder de tarieven van de club.<br>Momenteel worden er alleen maandelijkse abonnementen voorzien. <br> Bij inschrijving wordt éénmalig 15 euro extra aangerekend voor de sportverzekering die 1 jaar geldig is."
+  section: prices
+
+  categories:
+    - teens:
+      title: "Jeugd (-17j)"
+      price: "40"
+      frequency: "/ maand"
+      info-schedule:
+        - point:
+          description: "2 groeptrainingen / week (kids -12j)"
+        - point:
+          description: "3 groeptrainingen / week (mixed +12j)"
+      info-training:
+        - point:
+          description: "Gericht op het aanleren van de basis"
+        - point:
+          description: "Gericht op techniek en cardio"
+    - adults:
+      title: "Volwassenen"
+      description: ""
+      price: "50"
+      frequency: "/ maand"
+      info-schedule:
+        - point:
+          description: "3 groeptrainingen / week (mixed +12j)"
+        - point:
+          description: "1 extra groepstraining (voor +16j)"
+        - point:
+          description: "1 groepstraining voor gevorderden<br>(bij toelating vd trainer)"
+      info-training:
+        - point:
+          description: "Gericht op techniek en cardio"
+        - point:
+          description: "Gericht op het competitieve (gevorderden)"
+    - private:
+      title: "Privé training"
+      description: ""
+      price: "100"
+      frequency: "voor 4 beurten"
+      info-schedule:
+        - point:
+          description: "Eén-op-één training (1u) met Ayoub"
+
+      info-training:         
+        - point:
+          description: "Mogelijk op afspraak"
+        - point:
+          description: "Eén-op-één pad work"
+        - point:
+          description: "Gericht op jouw noden (cardio, techniek, competitie)"
+        - point:
+          description: "Zowel voor beginners als gevorderden"
+
+trainer:
+  title: "Trainer"
+  section: trainer
+  
+  name: "Ayoub Nefzi"
+  description: "Ayoub Nefzi is de oprichter van Nefzi Boxingclub en een echte boksliefhebber. Hij is een voormalig professional die jarenlang heeft gebokst op topniveau. De laatste jaren richt hij zich vooral op het trainen van anderen, inclusief beginners en meer ervaren boksers."
+  image0: assets/img/trainer/ayoub-nefzi.jpg
+  image1: assets/img/trainer/ayoub-nefzi-1.jpg
+  image2: assets/img/trainer/ayoub-nefzi-5.jpg
+  image3: assets/img/trainer/ayoub-nefzi-4.jpg
+
+  image-alt: "Ayoub Nefzi - Trainer Nefzi Boxingclub Geraardsbergen"
+  palmares:
+    record: "26 won - 12 lost - 2 draw"
+    titles:
+      - title:
+        name: "Belgium Super Welterweight Title"
+      - title:
+        name: "BeNeLux Super Welterweight Title"
+      - title:
+        name: "IBF International Super Welterweight Title"
+      - title:
+        name: "IBF Continental Africa Super Welterweight Title"
+      - title:
+        name: "Fight Of The Year 2012"
+
+contact:
+  title: "Vragen? Contacteer ons!"
+  text: ""
+  section: contact
+  name: "Naam*"
+  name-validation: "Gelieve je naam in te vullen!"
+  email: "Email*"
+  email-validation: "Gelieve je emailadres in te vullen!"
+  phone: "Telefoonnummer*"
+  phone-validation: "Gelieve je telefoonnummer in te vullen!"
+  message: "Bericht*"
+  message-validation: "Gelieve het bericht in te vullen!"
+  subject: "Contact Form Submission"
+  submit: "Verzend Bericht"
+
+location:
+  title: "Locatie"
+  text: "Sporthal de Veldmuis<br>Felicien Cauwelstraat 39, 9500 Geraardsbergen"
+  section: location
+
+footer:
+  social:
+    - url: https://www.facebook.com/NefziBoxingclub/
+      icon: "fab fa-facebook-f"
+    - url: https://www.instagram.com/nefzi_boxing_club/
+      icon: "fab fa-instagram"

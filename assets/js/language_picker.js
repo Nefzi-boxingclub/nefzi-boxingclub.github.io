@@ -1,14 +1,13 @@
 const locales = ["en-US","fr-FR", "nl-NL"];
 
 function getFlagSrc(countryCode) {
-  return `https://flagcdn.com/w40/${countryCode. toLowerCase()}.png`;
+  return `https://flagcdn.com/w40/${countryCode.toLowerCase()}.png`;
 }
 
 const dropdownBtn = document.getElementById("dropdown-btn");
 const dropdownContent = document.getElementById("dropdown-content");
 
 function setSelectedLocale(locale) {
-
   const intlLocale = new Intl.Locale(locale);
   var langName = new Intl.DisplayNames([locale], {
     type: "language",
@@ -16,8 +15,8 @@ function setSelectedLocale(locale) {
   langName = langName.charAt(0).toUpperCase() + langName.slice(1);
 
   dropdownContent.innerHTML = "";
+  const otherLocales = locales;
 
-  const otherLocales = locales; //.filter((loc) => loc !== locale);
   otherLocales.forEach((otherLocale) => {
     const otherIntlLocale = new Intl.Locale(otherLocale);
     var otherLangName = new Intl.DisplayNames([otherLocale], {
@@ -70,10 +69,10 @@ for (const locale of locales) {
 
 locale_to_href_link = {
     "en-US": "/en",
-    "nl-NL": "/nl",
+    "nl-NL": "/",
     "fr-FR": "/fr",
 };
 
 function redirectURL(locale) {
-    window.location.href = locale_to_href_link[locale];
+  window.location.href = locale_to_href_link[locale];
 }

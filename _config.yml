@@ -13,7 +13,7 @@
 
 remote_theme: raviriley/agency-jekyll-theme
 
-url    : "https://nefzi-boxingclub.github.io/nl" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "https://nefzi-boxingclub.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Nefzi Boxingclub | Boksen Geraardsbergen 
@@ -38,12 +38,16 @@ social:
     - https://www.facebook.com/ayoub.nefzi2
     - https://www.instagram.com/ayoubnefzi1/
 
-locale: "nl-BE" # See available languages in _data/sitetext.yml
+# Current selected language
+default_lang: "nl"
 
-languages:
-  - "nl-BE"
-  - "fr-BE"
-  - "en-US"
+# Supported languages
+languages: ["nl", "fr", "en"]
+
+# To avoid redundancy, it is possible to exclude files and folders from being copied to the localization folders.
+#exclude_from_localizations: ["javascript", "img", "assets/css"]
+parallel_localization: true
+
 
 analytics:
   google: #Google Analytics tracking code here
@@ -58,3 +62,8 @@ formspree_form_path: "f/mleybaqn"
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-polyglot
+
+
+sass:
+    sourcemap: never

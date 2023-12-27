@@ -1,0 +1,202 @@
+header:
+  title: Welcome to Nefzi Boxingclub Geraardsbergen!
+  button: Read More
+  buttonlink: "#mission"
+
+mission:
+  section: mission
+  title: "Mission & Vision"
+  text-mission-vision: "
+    Welcome to our local boxing club in Geraardsbergen where everyone is welcome, regardless of their skill level, goals or background.
+    We believe boxing is a great way to challenge yourself, improve your fitness and learn valuable life skills.
+    Central to our club is a commitment to creating a positive and supportive training environment whether you are training for competition, 
+    to improve your fitness, or to technically master the art of boxing.
+
+    <br><br><br>
+
+    Our goal is to help you improve your boxing skills regardless of your starting point.
+    We encourage everyone to challenge themselves and work hard to achieve their goals.
+    <br><br><br>
+
+    Therefore, central to the training we have the following values:
+  "
+  text-values:
+    - value:
+      title: "Discipline"
+      description: "We believe that discipline is essential for success in boxing. Our trainers set the lines of training and we expect all participants to come the to training on time, listen and follow instructions."
+    - value:
+      title: "Respect"
+      description: "We believe it is important to respect your fellow boxers and your trainer. This means training with everyone, regardless of their skill level, and controlling your emotions. We do not tolerate aggression in our gym."
+    - value:
+      title: "Safety"
+      description: "Boxing is a sport, not a fight. We train in a safe environment and we expect all participants to be aware of their own safety and the safety of others."
+    - value:
+      title: "Cleanliness"
+      description: "Everyone likes to train in a clean environment. Please clean up your trash so that the gym is a pleasant workout place for everyone."
+
+schedule:
+  title: "Schedule"
+  section: schedule
+  bottom-note: #"* Afhankelijk van de periode wordt deze les vervangen door competitietraining."
+  days:
+    - monday:
+      name: "Monday"
+      events:
+        - type: "boxing-adult"
+          start: "17:00"
+          end: "18:00"
+          description: "Competition and adults (+16y)"
+    - tuesday:
+      name: "Tuesday"
+      events:
+        - type: "boxing-teen"
+          start: "16:30"
+          end: "18:00"
+          description: "Teens (12 up to 16y)"
+        - type: "boxing-adult"
+          start: "18:30"
+          end: "20:00"
+          description: "Adults (+16y)"
+    - wednesday:
+      name: "Wednesday"
+      events:
+        - type: "boxing-kids"
+          start: "16:00"
+          end: "17:00"
+          description: "Kids (-12y)"
+    - thursday:
+      name: "Thursday"
+      events:
+        - type: "boxing-teen"
+          start: "17:00"
+          end: "18:30"
+          description: "Teens (12 up to 16y)"
+    - friday:
+      name: "Friday"
+      events:
+        - type: "boxing-kids"
+          start: "16:30"
+          end: "17:30"
+          description: "Kids (-12y)"
+        - type: "boxing-adult"
+          start: "17:30"
+          end: "18:30"
+          description: "Competition and adults (+16y)"
+    - saturday:
+      name: "Saturday"
+      events:
+        - type: "boxing-teen"
+          start: "17:00"
+          end: "18:30"
+          description: "Mix (+12y)"
+    - sunday:
+      name: "Sunday"
+
+prices:
+  title: "Prices"
+  text: "Below are the club's rates.<br>Currently only monthly subscriptions are provided.<br>There is a one-time 15 euro extra charge for sports insurance that is valid for 1 year when signing up."
+  section: prices
+
+  categories:
+    - teens:
+      title: "Teens (-17y)"
+      price: "40"
+      frequency: "/ month"
+      info-schedule:
+        - point:
+          description: "2 group trainings / week (kids -12y)"
+        - point:
+          description: "3 group trainings / week (mixed +12y)"
+      info-training:
+        - point:
+          description: "Focused on teaching the basics"
+        - point:
+          description: "Focused on technique and cardio"
+    - adults:
+      title: "Adults"
+      description: ""
+      price: "50"
+      frequency: "/ month"
+      info-schedule:
+        - point:
+          description: "3 group trainings / week (mixed +12y)"
+        - point:
+          description: "1 extra group training (for +16y)"
+        - point:
+          description: "1 group training for the advanced<br>(upon admission of the trainer)"
+      info-training:
+        - point:
+          description: "Focused on technique and cardio"
+        - point:
+          description: "Focused on competition (for advanced only)"
+    - private:
+      title: "Private training"
+      description: ""
+      price: "100"
+      frequency: "for 4 turns"
+      info-schedule:
+        - point:
+          description: "One-on-one training (1h) with Ayoub"
+
+      info-training:         
+        - point:
+          description: "Possible by appointment"
+        - point:
+          description: "One-on-one pad work"
+        - point:
+          description: "Focused on your needs (cardio, technique, competition)"
+        - point:
+          description: "Both for beginners and advanced boxers"
+
+trainer:
+  title: "Trainer"
+  section: trainer
+  
+  name: "Ayoub Nefzi"
+  description: "Ayoub Nefzi is the founder of Nefzi Boxingclub and a true boxing enthusiast. He is a former professional who boxed at the top level for many years. In recent years, he has mainly focused on training others, including beginners and more experienced boxers."
+  image0: assets/img/trainer/ayoub-nefzi.jpg
+  image1: assets/img/trainer/ayoub-nefzi-1.jpg
+  image2: assets/img/trainer/ayoub-nefzi-5.jpg
+  image3: assets/img/trainer/ayoub-nefzi-4.jpg
+
+  image-alt: "Ayoub Nefzi - Trainer Nefzi Boxingclub Geraardsbergen"
+  palmares:
+    record: "26 won - 12 lost - 2 draw"
+    titles:
+      - title:
+        name: "Belgium Super Welterweight Title"
+      - title:
+        name: "BeNeLux Super Welterweight Title"
+      - title:
+        name: "IBF International Super Welterweight Title"
+      - title:
+        name: "IBF Continental Africa Super Welterweight Title"
+      - title:
+        name: "Fight Of The Year 2012"
+
+contact:
+  title: "Questions? Contact us!"
+  text: ""
+  section: contact
+  name: "Name*"
+  name-validation: "Please enter your name!"
+  email: "Email*"
+  email-validation: "Please enter your email address!"
+  phone: "Phone number*"
+  phone-validation: "Please enter your phone number!"
+  message: "Message*"
+  message-validation: "Please fill out the message!"
+  subject: "Contact Form Submission"
+  submit: "Send Message"
+
+location:
+  title: "Location"
+  text: "Sporthal de Veldmuis<br>Felicien Cauwelstraat 39, 9500 Geraardsbergen"
+  section: location
+
+footer:
+  social:
+    - url: https://www.facebook.com/NefziBoxingclub/
+      icon: "fab fa-facebook-f"
+    - url: https://www.instagram.com/nefzi_boxing_club/
+      icon: "fab fa-instagram"

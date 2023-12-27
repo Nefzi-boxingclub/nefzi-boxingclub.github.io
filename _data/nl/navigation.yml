@@ -1,0 +1,13 @@
+nav:
+  - title: "Missie & visie"
+    section: mission
+  - title: "Trainer"
+    section: trainer
+  - title: "Uurrooster"
+    section: schedule
+  - title: "Tarieven"
+    section: prices
+  - title: "Locatie"
+    section: location
+  - title: "Contact"
+    section: contact
