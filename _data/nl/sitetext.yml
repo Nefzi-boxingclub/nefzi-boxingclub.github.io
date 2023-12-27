@@ -58,8 +58,8 @@ schedule:
       events:
         - type: "boxing-adult"
           start: "17:00"
-          end: "18:00"
-          description: "Competitie en volwassenen (+16j)"
+          end: "18:30"
+          description: "Competitie"
     - tuesday:
       name: "Dinsdag"
       events:
@@ -95,7 +95,7 @@ schedule:
         - type: "boxing-adult"
           start: "17:30"
           end: "18:30"
-          description: "Competitie en volwassenen (+16j)"
+          description: "Volwassenen (+16j)"
     - saturday:
       name: "Zaterdag"
       events:

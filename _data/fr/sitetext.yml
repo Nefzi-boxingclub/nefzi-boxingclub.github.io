@@ -44,8 +44,8 @@ schedule:
       events:
         - type: "boxing-adult"
           start: "17:00"
-          end: "18:00"
-          description: "Compétition et adultes (+16 ans)"
+          end: "18:30"
+          description: "Compétition"
     - tuesday:
       name: "Mardi"
       events:
@@ -81,7 +81,7 @@ schedule:
         - type: "boxing-adult"
           start: "17:30"
           end: "18:30"
-          description: "Compétition et adultes (+16 ans)"
+          description: "Adultes (+16 ans)"
     - saturday:
       name: "Samedi"
       events:
