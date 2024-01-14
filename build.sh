@@ -10,8 +10,10 @@ rm -rf legal.html
 # Run Jekyll serve
 bundle exec jekyll build
 
-# Copy en and fr folders to root
-cp -r _site/en .
-cp -r _site/fr .
+# Copy and fr folders to root
+mkdir en/
+mkdir fr/
+cp -r _site/en/index.html en/
+cp -r _site/fr/index.html fr/
 cp -r _site/index.html .
 cp -r _site/legal.html .

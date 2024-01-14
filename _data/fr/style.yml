@@ -4,9 +4,9 @@ highlight: "#ff5050"
 #black: "#000"
 
 #Image Customization
-header-image: "../img/gym/club-foto.jpg"
-contact-image: "../img/contact.png"
-prices-image: "../img/gym/boxing-gloves.jpg"
+header-image: "{{ site.canonical_url }}/assets/img/gym/club-foto.jpg"
+contact-image: "{{ site.canonical_url }}/assets/img/contact.png"
+prices-image: "{{ site.canonical_url }}/assets/img/gym/boxing-gloves.jpg"
 
 #Font Awesome icon for portfolio grid when an item is hovered over
 #portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x

@@ -12,6 +12,7 @@
 # in the templates via {{ site.myvariable }}.
 
 url    : "https://nefzi-boxingclub.com" # the base hostname & protocol for your site, e.g. http://example.com
+canonical_url: "https://nefzi-boxingclub.com"
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Nefzi Boxingclub | Boksen Geraardsbergen 
