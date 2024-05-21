@@ -45,13 +45,13 @@ schedule:
         - type: "boxing-adult"
           start: "17:00"
           end: "18:30"
-          description: "Competition"
+          description: "Competition and adults (+16y)"
     - tuesday:
       name: "Tuesday"
       events:
         - type: "boxing-teen"
-          start: "16:30"
-          end: "18:00"
+          start: "17:00"
+          end: "18:30"
           description: "Teens (12 up to 16y)"
         - type: "boxing-adult"
           start: "18:30"
@@ -75,20 +75,15 @@ schedule:
       name: "Friday"
       events:
         - type: "boxing-kids"
-          start: "16:30"
-          end: "17:30"
+          start: "16:00"
+          end: "17:00"
           description: "Kids (-12y)"
         - type: "boxing-adult"
-          start: "17:30"
-          end: "18:30"
-          description: "Adults (+16y)"
-    - saturday:
-      name: "Saturday"
-      events:
-        - type: "boxing-teen"
           start: "17:00"
           end: "18:30"
           description: "Mix (+12y)"
+    - saturday:
+      name: "Saturday"
     - sunday:
       name: "Sunday"
 
