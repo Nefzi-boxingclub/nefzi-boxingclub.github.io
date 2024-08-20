@@ -55,22 +55,13 @@ schedule:
   days:
     - monday:
       name: "Maandag"
-      events:
-        - type: "boxing-adult"
-          start: "17:00"
-          end: "18:30"
-          description: "Competitie en volwassenen (+16j)"
     - tuesday:
       name: "Dinsdag"
       events:
         - type: "boxing-teen"
-          start: "17:00"
-          end: "18:30"
-          description: "Tieners (12 t.e.m. 15j)"
-        - type: "boxing-adult"
-          start: "18:30"
+          start: "18:00"
           end: "20:00"
-          description: "Volwassenen (+16j)"
+          description: "Mix (+12j)"
     - wednesday:
       name: "Woensdag"
       events:
@@ -84,17 +75,22 @@ schedule:
         - type: "boxing-teen"
           start: "17:00"
           end: "18:30"
-          description: "Tieners (12 t.e.m. 15j)"
+          description: "Mix (+12j)"
     - friday:
       name: "Vrijdag"
       events:
         - type: "boxing-kids"
           start: "16:00"
           end: "17:00"
+          start: "16:00"
+          end: "17:00"
           description: "Kids (-12j)"
-        - type: "boxing-adult"
-          start: "17:00"
-          end: "18:30"
+    - saturday:
+      name: "Zaterdag"
+      events:
+        - type: "boxing-teen"
+          start: "18:00"
+          end: "20:00"
           description: "Mix (+12j)"
     - saturday:
       name: "Zaterdag"

@@ -41,22 +41,13 @@ schedule:
   days:
     - monday:
       name: "Lundi"
-      events:
-        - type: "boxing-adult"
-          start: "17:00"
-          end: "18:30"
-          description: "Compétition et adultes (+16 ans)"
     - tuesday:
       name: "Mardi"
       events:
         - type: "boxing-teen"
-          start: "17:00"
-          end: "18:30"
-          description: "Adolescents (12 à 15 ans)"
-        - type: "boxing-adult"
-          start: "18:30"
+          start: "18:00"
           end: "20:00"
-          description: "Adultes (+16 ans)"
+          description: "Mix (+12 ans)"
     - wednesday:
       name: "Mercredi"
       events:
@@ -70,17 +61,22 @@ schedule:
         - type: "boxing-teen"
           start: "17:00"
           end: "18:30"
-          description: "Adolescents (12 à 15 ans)"
+          description: "Mix (+12 ans)"
     - friday:
       name: "Vendredi"
       events:
         - type: "boxing-kids"
           start: "16:00"
           end: "17:00"
+          start: "16:00"
+          end: "17:00"
           description: "Enfants (-12 ans)"
-        - type: "boxing-adult"
-          start: "17:00"
-          end: "18:30"
+    - saturday:
+      name: "Samedi"
+      events:
+        - type: "boxing-teen"
+          start: "18:00"
+          end: "20:00"
           description: "Mix (+12 ans)"
     - saturday:
       name: "Samedi"
