@@ -78,8 +78,6 @@ schedule:
           start: "18:00"
           end: "20:00"
           description: "Mix (+12 ans)"
-    - saturday:
-      name: "Samedi"
     - sunday:
       name: "Dimanche"
 

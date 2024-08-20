@@ -92,8 +92,6 @@ schedule:
           start: "18:00"
           end: "20:00"
           description: "Mix (+12j)"
-    - saturday:
-      name: "Zaterdag"
     - sunday:
       name: "Zondag"
 
