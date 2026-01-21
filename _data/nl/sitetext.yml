@@ -59,8 +59,8 @@ schedule:
       name: "Dinsdag"
       events:
         - type: "boxing-teen"
-          start: "18:00"
-          end: "20:00"
+          start: "17:00"
+          end: "18:30"
           description: "Mix (+12j)"
     - wednesday:
       name: "Woensdag"
@@ -89,8 +89,8 @@ schedule:
       name: "Zaterdag"
       events:
         - type: "boxing-teen"
-          start: "18:00"
-          end: "20:00"
+          start: "17:00"
+          end: "18:30"
           description: "Mix (+12j)"
     - sunday:
       name: "Zondag"
