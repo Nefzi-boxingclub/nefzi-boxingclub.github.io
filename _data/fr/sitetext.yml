@@ -83,7 +83,7 @@ schedule:
 
 prices:
   title: "Tarifs"
-  text: "Voici les tarifs du club.<br>Actuellement, seuls des abonnements mensuels sont proposés.<br>Lors de l'inscription, un supplément unique de 15 euros est demandé pour l'assurance sportive, qui est valable pendant un an."
+  text: "Voici les tarifs du club.<br>Actuellement, seuls des abonnements mensuels sont proposés.<br>Lors de l'inscription, un supplément unique de 20 euros est demandé pour l'assurance sportive, qui est valable pendant un an."
   section: prices
 
   categories:

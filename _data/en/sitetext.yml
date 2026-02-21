@@ -88,7 +88,7 @@ schedule:
 
 prices:
   title: "Prices"
-  text: "Below are the club's rates.<br>Currently only monthly subscriptions are provided.<br>There is a one-time 15 euro extra charge for sports insurance that is valid for 1 year when signing up."
+  text: "Below are the club's rates.<br>Currently only monthly subscriptions are provided.<br>There is a one-time 20 euro extra charge for sports insurance that is valid for 1 year when signing up."
   section: prices
 
   categories:
